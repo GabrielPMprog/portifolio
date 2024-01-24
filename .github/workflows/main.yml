@@ -13,4 +13,4 @@ jobs:
           host: ${{ secrets.HOST }}
           user: ${{ secrets.USER }}
           password: ${{ secrets.PASS }}
-          localDir: "web"
+          localDir: "\\windows-pd-0001.fs.locaweb.com.br\WNFS-0002\sfeasfeafsfeasfp1\web"
