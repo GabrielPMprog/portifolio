@@ -1,0 +1,15 @@
+.flag{
+display: flex;
+width: 100px;
+}
+
+.flag button{
+border: none;
+background-color: transparent;
+color: white;
+font-size: 3rem;
+cursor: pointer;
+margin-left: 5px;
+text-align: center;
+
+}

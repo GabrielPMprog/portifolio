@@ -1,0 +1,147 @@
+.projectsMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  width: 96%;
+  height: 100%;
+  background-color: rgb(32, 4, 51);
+  color: white;
+  border-radius: 10px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Portifolio */
+
+.portifolioProject {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.portifolioProject img {
+  width: 700px;
+  height: 350px;
+  opacity: 0.6;
+}
+
+.portifolioProject a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #4c007f;
+  color: white;
+  width: 50%;
+  height: 50px;
+  margin-top: 5px;
+  margin: 5px 2px;
+}
+
+.protifolioProjectLink {
+  opacity: 0.2;
+}
+
+/* thoughts */
+
+.thoughtsProject {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.thoughtsProject img {
+  width: 700px;
+  height: 350px;
+
+  opacity: 0.6;
+}
+
+.thoughtsProject a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #4c007f;
+  color: white;
+  width: 50%;
+  height: 50px;
+  margin-top: 5px;
+  margin: 5px 2px;
+}
+
+/* Get a Pet */
+
+.getapetProject {
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.getapetProject img {
+  width: 700px;
+  height: 350px;
+
+  opacity: 0.6;
+}
+
+.getapetProject a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #4c007f;
+  color: white;
+  width: 50%;
+  height: 50px;
+  margin-top: 5px;
+  margin: 5px 2px;
+}
+
+/* Nlw */
+
+.nlwProject {
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.nlwProject img {
+  width: 700px;
+  height: 350px;
+
+  opacity: 0.6;
+}
+
+.nlwProject a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #4c007f;
+  color: white;
+  width: 50%;
+  height: 50px;
+  margin-top: 5px;
+  margin: 5px 2px;
+}

@@ -1,0 +1,14 @@
+body{
+
+  background-color: #4c007f;
+  
+
+}
+
+.container{
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: 1rem;
+}
