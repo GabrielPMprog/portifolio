@@ -1,21 +1,16 @@
+name: Deploy via ftp
 on: push
-name: 🚀 Deploy website on push
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
+  deploy:
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v3
+    - uses: actions/checkout@v2
 
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+    - name: FTP Deploy Locaweb
+      uses: locaweb/ftp-deploy@1.0.0
       with:
-        server: ftp.sfeasfeafsfeasf.pessoal.ws
-        username: sfeasfeafsfeasfp1
+        host: ${{ secrets.HOST }} 
+        user: ${{ secrets.USER }}
         password: ${{ secrets.PASS }}
-        exclude: |
-          **/.git*
-          **/.git*/**
-          **/node_modules/**
-          fileToExclude.txt
+        localDir: "dist"
